@@ -1,0 +1,32 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'layout/_header.scss';\r\n@import 'layout/_footer.scss';\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_components.scss';\r\n",
+		"",
+		"",
+		"",
+		"body {\r\n  margin:0 !important;\r\n  padding:0 !important;\r\n  font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.section-doctors {\r\n  height: 100vh;\r\n  width: 100%;\r\n\r\n  .topHalf {\r\n    background-image: url('../img/surgery.jpg');\r\n    // background-position: cover;\r\n    background-size: cover;\r\n    height: 950px;\r\n  }\r\n\r\n  .doctor-img  img{\r\n    height: 1100px;\r\n    top:0;\r\n    right:350px;\r\n    position: absolute;\r\n    animation-name: right;\r\n  }\r\n\r\n  @keyframes right{\r\n    0%{right:-500px};\r\n    100%{right:0};\r\n  }\r\n\r\n  .bio {\r\n    text-align: center;\r\n    top:200px;\r\n    color:rgb(0, 70, 162);\r\n    animation-name: left;\r\n\r\n    h1 {\r\n      font-size: 90px;\r\n      }\r\n    h2 {\r\n      font-size: 75px;\r\n    }\r\n    h3 {\r\n      font-size: 50px;\r\n    }\r\n    img{\r\n      height: 250px;\r\n    }\r\n  }\r\n\r\n}\r\n\r\n.doctor-footer {\r\n  height: 400px;\r\n  background: rgb(187, 241, 255);\r\n  width: 100%;\r\n  bottom: 0;\r\n  position: absolute;\r\n  // padding: 0 50px;\r\n  padding: 40px 115px !important;\r\n  box-shadow: inset 3px 2px 5px #000;\r\n\r\n  h3 {\r\n    font-size: 40px;\r\n    text-align: center;\r\n  }\r\n\r\n  p {\r\n    font-size: 25px;\r\n    text-align: center;\r\n  }\r\n}\r\n",
+		"\r\n",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": ";AIAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAC,YAAa;EACpB,OAAO,EAAC,YAAa;EACrB,WAAW,EAAE,qBAAsB;CACpC;;;AAED,AAAA,gBAAgB,CAAC;EACf,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,IAAK;CA0Cb;;;AA5CD,AAIE,gBAJc,CAId,QAAQ,CAAC;EACP,gBAAgB,EAAE,yBAAG;EAErB,eAAe,EAAE,KAAM;EACvB,MAAM,EAAE,KAAM;CACf;;;AATH,AAWe,gBAXC,CAWd,WAAW,CAAE,GAAG,CAAA;EACd,MAAM,EAAE,MAAO;EACf,GAAG,EAAC,CAAE;EACN,KAAK,EAAC,KAAM;EACZ,QAAQ,EAAE,QAAS;EACnB,cAAc,EAAE,KAAM;CACvB;;AAED,UAAU,CAAV,KAAU;EACR,AAAA,EAAE;IAAC,KAAK,EAAC,MAAO;;EAChB,AAAA,IAAI;IAAC,KAAK,EAAC,CAAE;;;;;AArBjB,AAwBE,gBAxBc,CAwBd,IAAI,CAAC;EACH,UAAU,EAAE,MAAO;EACnB,GAAG,EAAC,KAAM;EACV,KAAK,EAAC,OAAG;EACT,cAAc,EAAE,IAAK;CActB;;;AA1CH,AA8BI,gBA9BY,CAwBd,IAAI,CAMF,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;CACf;;;AAhCP,AAiCI,gBAjCY,CAwBd,IAAI,CASF,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;CACjB;;;AAnCL,AAoCI,gBApCY,CAwBd,IAAI,CAYF,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;CACjB;;;AAtCL,AAuCI,gBAvCY,CAwBd,IAAI,CAeF,GAAG,CAAA;EACD,MAAM,EAAE,KAAM;CACf;;;AAKL,AAAA,cAAc,CAAC;EACb,MAAM,EAAE,KAAM;EACd,UAAU,EAAE,OAAG;EACf,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,CAAE;EACV,QAAQ,EAAE,QAAS;EAEnB,OAAO,EAAE,qBAAsB;EAC/B,UAAU,EAAE,sBAAuB;CAWpC;;;AAnBD,AAUE,cAVY,CAUZ,EAAE,CAAC;EACD,SAAS,EAAE,IAAK;EAChB,UAAU,EAAE,MAAO;CACpB;;;AAbH,AAeE,cAfY,CAeZ,CAAC,CAAC;EACA,SAAS,EAAE,IAAK;EAChB,UAAU,EAAE,MAAO;CACpB",
+	"names": []
+}
